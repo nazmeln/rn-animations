@@ -45,7 +45,7 @@ workflows:
                     xcode-project use-profiles --warn-only
       - name: Build ipa for distribution
         script: |
-                    xcode-project build-ipa --workspace "$FCI_BUILD_DIR/ios/reactNativeAnimations.xcworkspace" --scheme "reactNativeAnimations" 
+                    xcode-project build-ipa --workspace "ios/reactNativeAnimations.xcworkspace" --scheme "reactNativeAnimations" 
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
