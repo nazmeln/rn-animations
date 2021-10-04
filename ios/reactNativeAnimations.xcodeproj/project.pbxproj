@@ -205,7 +205,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -462,6 +462,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.examp4le.reactNativeAnimations;
 				PRODUCT_NAME = reactNativeAnimations;
+				SWIFT_OBJC_BRIDGING_HEADER = "reactNativeAnimations-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -488,6 +489,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.examp4le.reactNativeAnimations;
 				PRODUCT_NAME = reactNativeAnimations;
+				SWIFT_OBJC_BRIDGING_HEADER = "reactNativeAnimations-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
