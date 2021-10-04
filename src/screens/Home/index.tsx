@@ -4,7 +4,7 @@ import {ROUTES} from '../../constants';
 
 import {NativeModules} from 'react-native';
 
-console.log('NativeModules', NativeModules.RNShare);
+const {RNShare} = NativeModules;
 
 import styles from './styles';
 
@@ -15,6 +15,10 @@ export const Home = ({navigation}) => {
         <Button
           title="Carousel Movie Animation"
           onPress={() => navigation.navigate(ROUTES.FLAT_LIST_ANIMATIONS)}
+        />
+        <Button
+          title="Native Module Open Dialogue"
+          onPress={() => RNShare.open({message: 'Native One'})}
         />
       </SafeAreaView>
     </ScrollView>

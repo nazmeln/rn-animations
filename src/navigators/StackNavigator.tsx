@@ -13,6 +13,9 @@ export const StackNavigator = () => {
       <Stack.Screen
         name={ROUTES.FLAT_LIST_ANIMATIONS}
         component={FlatListAnimation}
+        options={{
+          headerShown: false,
+        }}
       />
     </Stack.Navigator>
   );

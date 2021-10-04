@@ -35,7 +35,7 @@ const BackDrop = ({photos, scrollX}) => {
       }}>
       <FlatList
         data={photos}
-        keyExtractor={item => item.imagePath}
+        keyExtractor={item => item.description}
         renderItem={({item, index}) => {
           const inputRange = [
             (index - 2) * ITEM_WIDTH,
