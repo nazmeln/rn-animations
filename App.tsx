@@ -1,13 +1,12 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 
-import {Home} from './src/screens';
-import {FlatListAnimation} from './src/animations';
+import {StackNavigator} from './src/navigators/StackNavigator';
 
 const App = () => {
   return (
     <NavigationContainer>
-      <FlatListAnimation />
+      <StackNavigator />
     </NavigationContainer>
   );
 };
