@@ -13,7 +13,7 @@ export const Home = ({navigation}) => {
     <ScrollView contentInsetAdjustmentBehavior="automatic">
       <SafeAreaView style={styles.container}>
         <Button
-          title="Carousel Movie Animation"
+          title="Carousel Mie Animation"
           onPress={() => navigation.navigate(ROUTES.FLAT_LIST_ANIMATIONS)}
         />
         <Button
