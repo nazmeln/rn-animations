@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import {FlatListAnimation} from '../animations';
-import {Home} from '../screens';
+import {Home, Posts} from '../screens';
 import {ROUTES} from '../constants';
 
 const Stack = createStackNavigator();
@@ -17,6 +17,7 @@ export const StackNavigator = () => {
           headerShown: false,
         }}
       />
+      <Stack.Screen name={ROUTES.REACT_QUERY_POSTS} component={Posts} />
     </Stack.Navigator>
   );
 };
